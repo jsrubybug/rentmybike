@@ -1,9 +1,7 @@
 rentmybike
 ============
 
-[![Code Climate](https://codeclimate.com/github/balanced/rentmybikes-rails.png)](https://codeclimate.com/github/balanced/rentmybikes-rails)
-
-Example marketplace implementation of [Balanced](https://www.balancedpayments.com) in Ruby on Rails.
+Marketplace implementation in Ruby on Rails.
 
 Uses jQuery, [Less](http://lesscss.org/), Ruby(>=1.9.3), Rails (>= 4.0.0.rc1), [Devise](https://github.com/plataformatec/devise), PostgreSQL, and
 [Bootstrap](http://twitter.github.com/bootstrap/).
@@ -17,20 +15,10 @@ Live Demo
 [http://rentmybike-rails.herokuapp.com](http://rentmybike-rails.herokuapp.com)
 
 
-Resources
-----------
-
-* [Balanced Ruby Client](https://github.com/balanced/balanced-ruby)
-* [Balanced API docs](https://docs.balancedpayments.com/1.1/api/?language=ruby)
-* [Balanced Guides](https://docs.balancedpayments.com/1.1/guides/?language=ruby)
-* [balanced.js](https://docs.balancedpayments.com/1.1/guides/balanced-js/?language=ruby)
-
-
 Install
 --------
 
-    $ git clone https://github.com/balanced/rentmybikes-rails.git
-    $ cd rentmybikes
+    $ cd rentmybike
     $ bundle install
     $ rake db:create
     $ rake db:migrate
@@ -89,7 +77,7 @@ or if you dont have [Toolbelt] (https://toolbelt.heroku.com/)
 Deploy
 -------
 
-    $ cd rentmybikes
+    $ cd rentmybike
     $ heroku create
     $ git push origin heroku
     $ heroku ps:scale web=1
